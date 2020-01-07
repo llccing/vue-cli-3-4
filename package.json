@@ -1,0 +1,23 @@
+{
+  "name": "vue-cli-3-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llccing/vue-cli-3-4.git"
+  },
+  "keywords": [
+    "@vue/cli3",
+    "@vue/cli4"
+  ],
+  "author": "llccing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llccing/vue-cli-3-4/issues"
+  },
+  "homepage": "https://github.com/llccing/vue-cli-3-4#readme"
+}
