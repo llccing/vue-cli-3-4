@@ -8,9 +8,9 @@
 - vue-cli-3 @vue/cli@3.12.1
 
 
-## 不同点
+## 文件目录比较
 
-### 文件内容
+### 变化的内容
 
 #### App.vue 
 
@@ -70,7 +70,7 @@
 样式代码更加简洁
 
 #### src/components/HelloWorld.vue
-增加了vuex、vue-router插件
+增加了vuex、vue-router插件的链接
 
 ```html
 <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
@@ -78,18 +78,65 @@
 ```
 
 #### vue-router
-改为目录结构
+v3
+```js
 src/router.js
+```
+```js
 src/router/index.js
+```
 
 #### vuex
-改为目录结构
+v3
+```js
 src/store.js
+```
+v4
+```js
 src/store/index.js
+```
+
+#### babel.config.js
+v3
+```js
+module.exports = {
+  presets: [
+    '@vue/app'
+  ]
+}
+```
+
+v4
+```js
+module.exports = {
+  presets: [
+    '@vue/cli-plugin-babel/preset'
+  ]
+}
+```
+
+#### package.json
+- core-js 2 升级到 3
+
+增加两个依赖
+- @vue/cli-plugin-router
+- @vue/cli-plugin-vuex
+
+@vue/cli-xxx 和 @vue/cli-plugin-xxx的版本升级到4.1.x
+
+#### postcss.config.js
+v4中删除
 
 ### 没有变化的内容
 
 ```
 src/views/*
+src/public/*
 src/assets/logo.png
+src/main.js
+.browswerslistrc
+.editorconfig
+.eslintrc.js
+.gitignore
+README.md
 ```
