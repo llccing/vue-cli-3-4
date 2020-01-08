@@ -129,13 +129,17 @@ v4中删除
 
 ### 没有变化的内容
 
-```
+```js
 src/views/*
 src/public/*
 src/assets/logo.png
 src/main.js
 .browswerslistrc
+
+// 用来规范编辑，需要配合插件 https://juejin.im/post/5b9cba4c6fb9a05cf67a79a4
+// https://relign.github.io/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/editor-config/
 .editorconfig
+
 .eslintrc.js
 .gitignore
 README.md
