@@ -1,4 +1,4 @@
-# vue-cli-3
+# vue-cli-4
 
 ## Project setup
 ```
